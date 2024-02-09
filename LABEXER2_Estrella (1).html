@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jollybox</title>
+    
+    <style>
+        .title{
+            text-align: center;
+            font-size: 35px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        header{
+            text-align: center;
+            background-color: red;
+            padding: 5px;
+            padding-top: 1px;
+            margin-bottom: 5px;
+        }
+        
+        h1{
+            font-size: 80px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding-bottom: 2px;
+            margin-bottom: 2px;
+        }
+
+        table{
+            padding-right: 50px;
+        }
+
+        h2{
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .food_pictures{
+            width: 300px;
+            length: 300px;
+        }
+
+        .table_indention{
+            text-align: center;
+        }
+        
+        body{
+            background-color: black;
+            color: white;
+        }
+
+        #plainrice{
+            width: 200px;
+            length: 200px;
+            padding-bottom: 75px;
+            padding-top: 20px;
+        }
+
+        footer{
+            background-color:red;
+            padding: 25px;
+    
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JOLLYBOX MENU</h1>
+        <p>For easy pick-up and delivery</p>
+    </header>
+    <main>
+        <h2>Best Seller</h2>
+        <section id="wings">
+            <h3 class="title">WINGS</h3>
+            <div id="flavor">
+                <table style="width:100%">
+                    <tr>
+                        <th>Flavors</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr  class=table_indention>
+                        <td>
+                            <img class="food_pictures" src="https://www.foxyfolksy.com/wp-content/uploads/2022/11/garlic-parmesan-wings-1200t.jpg" alt="garlic parmesan">
+                             <br> Garlic Parmesan 
+                        </td>
+                        <td>
+                            <ul>
+                                <li>3 pieces ₱75</li>
+                                <li>5 pieces ₱100</li>
+                                <li>Bucket ₱199</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table_indention">
+                        <td>
+                            <img class="food_pictures" src="https://www.allrecipes.com/thmb/vho2-TnMVMGEn6saATobWJHGTPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/24087-restaurant-style-buffalo-chicken-wings-DDMFS-4x3-861e36c713264f3a9db8ba02d3afbea1.jpg" alt="buffalo wings picture">
+                            <br>Buffalo wings
+                        </td>
+                        <td>
+                            <ul>
+                                <li>3 pieces ₱75</li>
+                                <li>5 pieces ₱100</li>
+                                <li>Bucket ₱199</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table_indention">
+                        <td>
+                            <img class="food_pictures" src="https://www.staysnatched.com/wp-content/uploads/2022/02/sweet-chili-wings-recipe-2-1.jpg" alt="Sweet Chili chicken picture">
+                            <br>Sweet Chili Wings
+                        </td>
+                        <td>
+                            <ul>
+                                <li>3 pieces ₱75</li>
+                                <li>5 pieces ₱100</li>
+                                <li>Bucket ₱199</li>
+                            </ul>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section id="silogmeals">
+            <h3 class="title">RICE MEALS</h3>
+            <div id="types">
+                <table style="width:100%">
+                    <tr>
+                        <th>Types</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr  class=table_indention>
+                        <td>
+                            <img class="food_pictures" src="https://assets.bonappetit.com/photos/61e8411b3fb9f421b7590ae4/1:1/w_2560%2Cc_limit/20211208%2520Tapsilog%2520LEDE.jpg" alt="Tapsilog picture">
+                             <br> Tapsilog 
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Sulit meal ₱99</li>
+                            </ul>
+                        </td>
+                        <tr  class=table_indention>
+                            <td>
+                                <img class="food_pictures" src="https://titastravels.files.wordpress.com/2021/02/maling-silog-fb-1.jpg" alt="A plate with hamsilog">
+                                 <br> Hamsilog 
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Sulit meal ₱99</li>
+                                </ul>
+                            </td>
+                        <tr>
+                    <tr  class=table_indention>
+                        <td>
+                            <img class="food_pictures" src="https://mnlopsample.files.wordpress.com/2019/10/hotsilog.jpg" alt="A plate with hotsilog">
+                             <br> Hotsilog 
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Sulit meal ₱99</li>
+                            </ul>
+                        </td>
+                    <tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="extra_rice">
+            <h3 class="title">EXTRA RICE</h3>
+            <table style="width: 100%;">
+                <tr>
+                    <th>Plain Rice</th>
+                    <th>Java Rice</th>
+                </tr>
+                <td class="table_indention">
+                    <img id="plainrice" class="food_pictures" src="https://pngimg.com/d/rice_PNG48.png" alt="A bowl with plain rice">
+                    <br>₱15
+                </td>
+                <td class="table_indention">
+                    <img class="food_pictures" src="https://www.vrg.org/blog/wp-content/uploads/2020/12/java-rice-from-www.dencios.com_.ph_.png" alt="A plate with java rice">
+                    <br>₱20
+                </td>
+    
+            </table>
+        </section>
+
+        <section id="drinks">
+            <h3 class="title">DRINKS</h3>
+                <table style="width: 100%;">
+                    <tr>
+                        <th>Coke</th>
+                        <th>Mirinda</th>
+                        <th>Sprite</th>
+                    </tr>
+                    <tr>
+                        <td class="table_indention">
+                            <img class="food_pictures" src="https://assets.stickpng.com/thumbs/580b57fbd9996e24bc43c0de.png" alt="A can of coke">
+                            <br>₱12
+                        </td>
+                        <td class="table_indention">
+                            <img class="food_pictures" src="https://images.freshop.com/1564405684702504148/779d9596ef9b9bc91ae735405b3831af_large.png" alt="Sprite bottle">
+                            <br>₱12
+                        </td>
+                        <td class="table_indention">
+                            <img class="food_pictures" src="https://toppng.com/uploads/preview/bottle-of-sprite-png-picture-stock-sprite-glass-bottle-11563220225w2kyrcbxop.png" alt="sprite">
+                            <br>₱12
+                        </td>
+                    </tr>
+                </table>
+        </section>
+        <footer>
+            <span>This content is provided for educational purposes only. No copyright infringement is intended, and all rights to the copyrighted materials are owned by their respective owners. </span>
+        </footer>
+        
+    </main>
+</body>
+</html>
